@@ -1,0 +1,46 @@
+.header{
+    width: 90%;
+    padding: 2% 2%;
+    display: flex;
+    justify-content: space-between;
+    background-color: rgb(193, 222, 247);
+    margin:auto;
+}
+
+nav{
+   width: 40%;
+}
+
+.main-nav{
+   display:flex;
+}
+
+nav ul span{
+   display: flex;
+   justify-content: flex-end;
+   
+}
+
+h1.logo{
+   font-size: var(--fs-small) ;
+}
+
+a{
+   text-decoration: none;
+   color: rgb(231, 119, 7);
+   transition: all 0.5s;
+   font-weight: 900;
+}
+
+a:hover{
+   color: rgb(20, 132, 169);
+}
+
+ul li {
+   list-style: none;
+   padding-right: 2rem;
+}
+
+span.user-name{
+   color: rgb(73, 16, 230) ;
+}

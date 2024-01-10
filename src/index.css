@@ -1,0 +1,59 @@
+ /* import font app */
+ @import url('https://fonts.googleapis.com/css2?family=Lato:wght@300;400;700&display=swap');
+@import url('https://fonts.googleapis.com/css?family=Roboto:300,400,500,700&display=swap');
+
+/* reset */
+*{
+     padding: 0;
+     margin: 0;
+     box-sizing: border-box;
+}
+
+html{
+    font-size: 12px;
+    font-family:"Montserrat",Arial, Helvetica, sans-serif;
+}
+
+:root{
+    --fs-large: 2.5rem;
+    --fs-medium: 1.8rem;
+    --fs-small: 1.6rem;
+}
+
+body{
+    background-color: rgb(238, 249, 255);
+    color: black;
+    -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  font-size: var(--fs-small); 
+}
+
+.container{
+    width: 100%;
+    max-width: 70%;
+    margin: 0 auto;
+}
+
+.bnt {
+    padding: 1rem 3rem;
+    color: rgb(43, 43, 146);
+    background-color: rgb(142, 209, 253);
+    border: 1px solid rgb(121, 184, 240) ;
+    border-radius: 7px;
+
+    font-family:Arial, Helvetica, sans-serif;
+    font-weight: bold;
+    font-size: var(--fs-medium);
+
+    cursor: pointer;
+    transition: all 0.3s;
+
+    box-shadow: 3px 4px 4px rgb(23, 108, 164);
+}
+
+.bnt:hover{
+    color: black;
+    background-color: rgb(51, 138, 196);
+    box-shadow: rgb(9, 92, 104) 7px 8px 4px;
+    transform: translateY(3px);
+}

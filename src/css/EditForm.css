@@ -1,0 +1,30 @@
+.title{
+    display: block;
+    background-color: rgb(226, 240, 251);
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 20px;
+    font-weight: 800;
+    height: 40px;
+    /* padding-left: 1rem; */
+    padding: 1rem ;
+    
+
+    border: 1px solid;
+    color: rgb(21, 84, 139);
+    border-radius: 4px;
+    resize: none;
+}
+
+.author-info {
+    font-size: 18px;
+    font-weight: 500;
+    height: 30px;
+    padding: 0.5rem 1rem;
+  }
+
+
+  /* CSS phần hiển thị của nội dung */
+
+  .post-content {
+    white-space: pre-line;
+  }

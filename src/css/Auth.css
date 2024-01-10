@@ -1,0 +1,35 @@
+.auth-container{
+    width: 70%;
+    margin: 0 auto;
+    margin-top: 5rem;
+    padding: 2rem 2rem;
+
+    border: 1.5px dashed rgb(111, 186, 227);
+    text-align: center;
+}
+
+.auth-container h2{
+    margin-bottom: 3rem;
+    color: rgb(55, 124, 242) ;
+}
+
+.error-message{
+    margin-bottom: 1.5rem;
+    color: red;
+    text-transform: capitalize;
+}
+
+.auth-container input{
+    display: block;
+    background-color:rgb(226, 240, 251);
+    width: 100%;
+    padding: 2rem;
+    margin: 0 0 2.5rem;
+
+    font-family: inherit;
+    font-size: inherit;
+
+    border-radius: 7px;
+    border: 1px solid rgb(59, 124, 181);
+}
+

@@ -1,0 +1,33 @@
+/* menu*/
+.menu{
+    width: 90%;
+     padding: 2% 2%;
+     display: flex;
+     justify-content: space-between;
+    background-image: url("../imageNLCS/bg_menu.jpeg");
+    border-radius: 5px;
+    margin: 2px auto;
+    
+}
+
+.menu-buton{
+    height: 3rem;
+    width: 52%;
+    margin: 0 8px;
+    background-color: aliceblue;
+
+    font-size: 18px;
+    padding-left: 2rem;
+
+    border-radius: 5px;
+
+    border: 1px solid rgb(126, 182, 230);
+    box-shadow: rgb(5, 39, 56) 5px 2px 4px;
+}
+
+.menu-buton:hover{
+    color: black;
+    background-color: rgb(129, 171, 215);
+    box-shadow: rgb(9, 92, 104) 7px 8px 4px;
+    transform: translateY(3px);
+}

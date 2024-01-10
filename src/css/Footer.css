@@ -1,0 +1,15 @@
+.footer{
+    width: 90%;
+    margin: 1rem auto 5rem;
+    border: 1.5px dashed rgb(111, 186, 227);
+    text-align: center;
+    
+}
+.footer-text{
+    display: flex;
+    justify-content: space-between;
+}
+.footer-img{
+    width: 50%;
+    margin-left: 53%;
+}
